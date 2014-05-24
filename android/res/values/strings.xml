@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cloud CopyPaster</string>
+    <string name="button_on">Включено. Кликните что бы выключить.</string>
+    <string name="button_off">Выключено. Кликните что бы включить  или зарегистрироваться.</string>
+    <string name="error_empty_field">Нужно заполнить поля Логин и Пароль.</string>
+    <string name="text_coped">Текст скопирован в буфер обмена.</string>
+    <string name="new_text">Новая копипаста.</string>
+    <string name="error_not_user">Не найден пользователь с таким логином и паролем.</string>
+    <string name="error_net">Ошибка связи. Проверьте, что вы подключены к интернету или попробуйте позднее.</string>
+    <string name="no_internet">Нет интернета.</string>
+    <string name="google_error">Гугл-сервис не отвечает.</string>
+    <string name="error_connection">Ошибка подключения:</string>
+    <string name="vibration">Вибрация</string>
+    <string name="sound">Звук</string>
+    <string name="autocopy">Копировать в буфер без подтверждения</string>
+    <string name="about">О программе</string>
+    <string name="developer">Разработчик</string>
+    <string name="developer_name">Моисеев Дмитрий aka Newbilius</string>
+    <string name="write_email">Написать письмо</string>
+    <string name="to_site">Перейти на сайт</string>
+    <string name="other_soft">Другие программы автора</string>
+    <string name="login">Логин</string>
+    <string name="pass">Пароль</string>
+    <string name="config_saved">Настройки сохранены!</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cloud CopyPaster</string>
+    <string name="button_on">Angeschaltet. Klicken zum Ausschalten.</string>
+    <string name="button_off">Ausgeschaltet. Klicken zum Anschalten oder Registrieren.</string>
+    <string name="error_empty_field">Benutzername und Kennwort müssen ausgefüllt werden.</string>
+    <string name="text_coped">Text in den Zwischenspeicher kopiert.</string>
+    <string name="new_text">Neuen Text empfangen</string>
+    <string name="error_not_user">Benutzer mit diesem Namen existiert nicht.</string>
+    <string name="error_net">Verbindungsfehler. Prüfen Sie, ob die Internetverbindung besteht und versuchen Sie erneut zu verbinden.</string>
+    <string name="no_internet">Keine Internetverbindung.</string>
+    <string name="google_error">Google-Dienst antwortet nicht.</string>
+    <string name="error_connection">Verbindungsfehler:</string>
+    <string name="vibration">Vibration</string>
+    <string name="sound">Ton</string>
+    <string name="autocopy">In den Zwischenspeicher ohne Bestätigung kopieren</string>
+    <string name="about">Über</string>
+    <string name="developer">Entwickler</string>
+    <string name="developer_name">Moiseev Dmitri aka Newbilius</string>
+    <string name="write_email">Kontakt</string>
+    <string name="to_site">Homepage</string>
+    <string name="other_soft">Weitere Apps des Entwicklers</string>
+    <string name="login">Benutzername</string>
+    <string name="pass">Kennwort</string>
+    <string name="config_saved">Einstellungen gespeichert!</string>
+</resources>

@@ -1,0 +1,12 @@
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+
+<Files "*.db">
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files "*.txt">
+Order Allow,Deny
+Deny from all
+</Files>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_on">Click to turn off.</string>
+    <string name="button_off">Click to turn on or register.</string>
+    <string name="error_empty_field">Need to fill Username and Password text fields.</string>
+    <string name="text_coped">Text copied to clipboard.</string>
+    <string name="new_text">New text..</string>
+    <string name="error_not_user">Not found user with this login and password.</string>
+    <string name="error_net">Communication error. Check internet connection or try again later.</string>
+    <string name="no_internet">No internet.</string>
+    <string name="google_error">Google service is not responding.</string>
+    <string name="error_connection">Connection error:</string>
+    <string name="vibration">Vibration</string>
+    <string name="sound">Sound</string>
+    <string name="autocopy">Copy to clipboard without confirmation</string>
+    <string name="about">About</string>
+    <string name="developer">Developer</string>
+    <string name="developer_name">Moiseev Dmitry aka Newbilius</string>
+    <string name="write_email">Write email</string>
+    <string name="to_site">Link to site</string>
+    <string name="other_soft">Other programs</string>
+    <string name="login">Login</string>
+    <string name="pass">Password</string>
+    <string name="config_saved">Config saved!</string>
+</resources>

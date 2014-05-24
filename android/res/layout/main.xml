@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:id="@+id/textView"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextLogin" android:singleLine="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pass"
+            android:id="@+id/textView2"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPassword" android:singleLine="true" android:password="true"/>
+    <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" android:layout_gravity="center_horizontal" android:visibility="gone"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:padding="8dp"
+            android:id="@+id/textViewError"
+            android:visibility="gone" android:gravity="center" android:textColor="#ff0000"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <CheckBox
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vibration"
+                android:id="@+id/checkBoxVibration" android:layout_weight="1"/>
+        <CheckBox
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sound"
+                android:id="@+id/checkBoxSound" android:layout_weight="1"/>
+    </LinearLayout>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/autocopy"
+            android:id="@+id/checkBoxInstantCopy"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ЧТО СДЕЛАТЬ"
+            android:id="@+id/buttonChangeStatus" android:onClick="OnChangeButtonClickListener"
+            android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about"
+            android:id="@+id/buttonHelp" android:onClick="OnChangeButtonClickListener" android:layout_gravity="right"/>
+</LinearLayout>
+

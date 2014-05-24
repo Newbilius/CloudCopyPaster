@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:paddingLeft="5px">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer"
+            android:id="@+id/textView" android:textSize="22dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer_name"
+            android:id="@+id/textView1" android:layout_marginTop="5px" android:layout_marginBottom="10px"
+            android:textSize="18dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="newbilius@gmail.com"
+            android:id="@+id/textEmail" android:textColor="#1523ff"
+            android:textSize="22dp" android:layout_marginBottom="8dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="http://www.siteszone.ru"
+            android:id="@+id/textSite" android:textColor="#1523ff" android:layout_marginBottom="10px"
+            android:textSize="22dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/write_email"
+                android:id="@+id/buttonEmail" android:layout_gravity="center" android:layout_weight="1"
+                android:textSize="16dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to_site"
+                android:id="@+id/buttonSite" android:layout_gravity="right|center_vertical" android:layout_weight="1"
+                android:textSize="16dp"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/other_soft"
+            android:id="@+id/buttonPrograms" android:textSize="16dp"/>
+</LinearLayout>
